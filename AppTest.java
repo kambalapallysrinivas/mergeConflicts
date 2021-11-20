@@ -13,10 +13,7 @@ public class AppTest
 		{
 			ds.startTest();
 		}
-		catch(Exception e)
-		{
-			e.printStackTrace();
-		}
+		
 	}
 
 }
