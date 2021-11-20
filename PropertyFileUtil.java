@@ -11,6 +11,7 @@ public class PropertyFileUtil
 	public static String getValueForKey(String key) throws Throwable, IOException
 	{
 		Properties configProperties = new Properties();
+		Properties configProperties2 = new Properties();
 		configProperties.load(new FileInputStream(new File("./PropertiesFile/Environment.properties")));
 		return configProperties.getProperty(key);
 	}
